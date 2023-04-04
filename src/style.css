@@ -26,8 +26,8 @@ p {
 }
  
 .btn-primary{
-  color:rgb(16, 19, 177)
-  background-color: rgb(111, 19, 153)
+  color: rgb:(16, 19, 177)
+  background-color: rgb:(111, 19, 153)
 }
 li {
   color: black;
