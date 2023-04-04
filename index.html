@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src//style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+     <form class="search-form" id="search-form">
+      <div>
+      </br>
+        <div class="input col-">
+          <input type="search" 
+          class="form-control shadow-sm rounded-pill border-dark" 
+          style="background-color: #9ED8FF; color: black; text-align: center;" 
+          placeholder="Enter city name" 
+          autofocus="on";
+          autocomplete="off";
+          id="city-input";/>
+          </p>
+          <div class="row justify-content-around"
+          <div class="col-4">
+           <input
+                type="submit"
+                value="Search"
+               class="btn btn-primary search"/>
+          <div class="col-4">
+            <button class="btn btn-success" id="current-location-button">Current</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div> 
+        <img src="https://em-content.zobj.net/thumbs/240/apple/325/sun-behind-cloud_26c5.png" class="float-left img" alt="Cinque Terre" width="70" height="70">
+        <p class = "text" id="city">Colorado Springs</p>
+        <p class = "text" id="date">Thu 02 | Today</p>
+        <p><span class = "text" id="temperature">46</span>
+        <span class="units">°C</span>
+       </div>
+         <div class="align-items-center">
+            <div class="col"></div>
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+          </div>
+      <div>
+        <div class="container">
+            <div class="row">
+             <div class="col">
+               Fri 03
+               <p>
+                   ⛅ 
+                  </p>
+                  <p>
+                    <button class="btn btn-primary btn rounded-circle btn-sm float-left">
+                        <i class="fa fa-plus"></i>
+                        <span>46°F</span>
+                      </button>
+                   </p>
+             </div>
+             <div class="col">
+               Sat 04
+               <p>
+                   ⛅ 
+                  </p>
+                  <p>
+                    <button class="btn btn-primary btn rounded-circle btn-sm">
+                        <i class="fa fa-plus"></i>
+                        <span>50°F</span>
+                      </button>
+                   </p>
+                  
+             </div>
+             <div class="col">
+               Sun 05
+               <p>
+                   ⛅ 
+                  </p>
+                  <p>
+                    <button class="btn btn-primary btn rounded-circle border btn-sm">
+                        <i class="fa fa-plus"></i>
+                        <span>45°F</span>
+                      </button>
+                   </p>
+             </div>
+             <div class="col">
+              Mon 06
+              <p>
+               ☀️
+              </p>
+              <p>
+                <button class="btn btn-primary btn rounded-circle border btn-sm">
+                    <i class="fa fa-plus"></i>
+                    <span>54°F</span>
+                  </button>
+               </p>
+             </div>
+             <div class="col">
+               Tue 07
+               <p>
+                ⛅ 
+               </p>
+               <p>
+                <button class="btn btn-primary btn rounded-circle border btn-sm">
+                    <i class="fa fa-plus"></i>
+                    <span>49°F</span>
+                  </button>
+               </p>
+              </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popperjs-core.min.js"
+      integrity="sha384-K5J4zq3p4lN6DT0i6adfmUHca1GjKvOiqOgYpDehAJInJT/fHdyFm7+/SAfo2zcd"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-9kVoEdABYcAxNJ5/rZjC3qTHM+dDpx6n1TYFYUy9oWqJ0IMge+I/T1ZciFoJo8/q"
+      crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
